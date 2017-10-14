@@ -15,8 +15,8 @@ var mainVm = new Vue({
     data : {
         newUserName : '',
         newUserPassword : '',
-        oldUserName : '',
-        oldUserPassword : '',
+        oldUserName : 'Walter',
+        oldUserPassword : 'dragons',
         foodName : '',
         foodObj: {
             text:'',
