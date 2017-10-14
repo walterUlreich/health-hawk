@@ -1,0 +1,54 @@
+body {
+  background-color: #ddd;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.header {
+  font-family: 'Racing Sans One', cursive;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-family: 'Racing Sans One', cursive;
+}
+
+#features {
+  margin: 20px 0;
+  margin-top: 40px;
+}
+
+#fixes {
+  margin-bottom: 20px;
+}
+
+#back {
+  font-size: 20px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+ul li {
+  font-size: 18px;
+}
+
+.icon {
+  font-size: 800%;
+  position: absolute;
+  right: 400px;
+  top: 260px;
+  color: #c61609;
+}
+
+#loginText {
+  position: absolute;
+  right: 280px;
+  top: 220px;
+  font-size: 30px;
+  font-family: 'Racing Sans One', cursive;
+}

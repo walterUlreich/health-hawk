@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="logoArea">
+            <h2 class="logoText">healthHAWK</h2>
+
+          </div>
+          <div id="app">
+            <h3 class="frontTitle">Create Account</h3>
+            <form class="form-inline" v-on:submit="createUser">
+                <input class="input" v-model="newUserName" placeholder=" Name">
+                <input v-model="newUserPassword" placeholder=" Password">
+                <input type="submit" value="Submit" class="btn btn-sm btnColor">
+            </form>
+            <h3 class="frontTitle">Login</h3>
+            <form class="form-inline" v-on:submit="signInUser">
+                <input class="input" v-model="oldUserName" placeholder=" Name">
+                <input type="password" v-model="oldUserPassword" placeholder=" Password">
+                <input type="submit" value="Log in" class="btn btn-sm btnColor">
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <p id="loginText">Much health! Very HAWK!</p>
+          <div class="icon">
+            <span class="fa fa-heartbeat" aria-hidden="true"></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+
+  </body>
+
+</html>

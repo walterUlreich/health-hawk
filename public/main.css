@@ -1,0 +1,107 @@
+body {
+  margin-top: 80px;
+  font-size: 18px;
+  background-color: #1d9d73;
+}
+
+.fa-heartbeat {
+  position: absolute;
+  top: 200px;
+  right: 300px;
+}
+
+.icon {
+  font-size: 1000%;
+  color: #b21141;
+}
+
+.frontTitle {
+    padding: 10px;
+    margin: 10px 40px;
+    border: 1px solid black;
+    width: 500px;
+    border-radius: 5px;
+    color: white;
+    background-color: #489FDF;
+}
+
+.logoArea {
+    padding: 10px;
+    margin: 40px;
+    border: 1px solid black;
+    width: 500px;
+    border-radius: 5px;
+    color: white;
+    background-color: white;
+    text-align: center;
+}
+
+.logoText {
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    position: relative;
+    top: 20px;
+}
+.btnColor {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    margin-left: 5px;
+    position: relative;
+    bottom: 1px;
+    cursor: pointer;
+}
+
+.btnColor:hover {
+  background-color: #f4b942;
+  color: black;
+}
+
+.form {
+    padding: 25px;
+    margin: 10px 20px;
+}
+
+#tableClass {
+    margin: 20px;
+    position: relative;
+    right: 10px;
+    width: 800px;
+}
+
+.formItems {
+    margin-right: 5px;
+}
+
+canvas {
+  padding: 15px;
+}
+
+/* #canvasContainer {
+    width: 400px;
+    height: 500px;
+
+} */
+
+.roundEdge {
+    border-radius: 5px;
+}
+
+.title {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    width: 800px;
+    border-radius: 5px;
+}
+.welcome {
+    padding: 10px;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 800px;
+}
+.logo {
+    margin: 20px;
+
+}

@@ -1,0 +1,72 @@
+body {
+  margin-top: 80px;
+  font-size: 18px;
+  background-color: #eee;
+}
+
+.fa-heartbeat {
+  position: relative;
+  top: 80px;
+}
+
+.icon {
+  font-size: 1000%;
+  color: #c61609;
+}
+
+.frontTitle {
+    padding: 10px;
+    margin: 10px 40px;
+    border: 1px solid black;
+    width: 500px;
+    border-radius: 5px;
+    color: white;
+    background-color: #65b3ed;
+}
+
+.logoArea {
+    padding: 20px;
+    margin: 40px;
+    border: 1px solid black;
+    width: 500px;
+    border-radius: 5px;
+    color: white;
+    background-color: white;
+    text-align: center;
+}
+
+.logoText {
+    font-family: 'Racing Sans One', cursive;
+    color: black;
+    position: relative;
+    top: 2px;
+}
+.btnColor {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    margin-left: 5px;
+    cursor: pointer;
+}
+/*
+.btnColor:hover {
+  background-color: #f4b942;
+  color: black;
+}
+*/
+.form-inline {
+  position: relative;
+  left: 40px;
+  margin: 20px 0;
+}
+
+.input {
+  margin-right: 5px;
+}
+
+#loginText {
+  font-size: 30px;
+  font-family: 'Racing Sans One', cursive;
+  position: relative;
+  top: 100px;
+}

@@ -1,0 +1,93 @@
+body {
+  font-size: 18px;
+  background-color: #1d9d73;
+}
+
+.jumbotron {
+  font-family: 'Fredoka One', cursive;
+  padding-top: 80px;
+  height: 300px;
+  border-radius: 0;
+  border-bottom: 1px solid black;
+}
+
+#logoText {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px 0;
+  width: 300px;
+}
+
+#loginText {
+  font-size: 24px;
+}
+
+.icon {
+  font-size: 500%;
+  color: #b21141;
+}
+
+.main-content {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 40px auto;
+  border: 1px solid black;
+}
+
+
+#table {
+  margin: 60px auto;
+  margin-bottom: 100px;
+  width: 800px;
+}
+
+.table th {
+  text-align: center;
+}
+
+.form {
+  margin: 60px 0;
+}
+
+.formItems {
+    margin-right: 5px;
+}
+
+#submit {
+  cursor: pointer;
+}
+
+canvas {
+  padding: 15px;
+}
+
+/* #canvasContainer {
+    width: 400px;
+    height: 500px;
+
+} */
+
+.roundEdge {
+    border-radius: 5px;
+}
+
+.title {
+  font-family: 'Fredoka One', cursive;
+  margin: 40px 0;
+}
+
+.canvas {
+  margin: 40px 0;
+}
+
+#mealSubmit {
+  margin-bottom: 200px;
+}
+
+.future {
+  margin-bottom: 40px;
+  cursor: pointer;
+  font-size: 20px;
+}
