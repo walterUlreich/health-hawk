@@ -83,7 +83,7 @@ app.get('/me', function(req, res){
 
 app.get('/me/meals', function(req, res, next){
     HawkMeal.find({_hawkuser: user._id}, function(err, data){
-        if (err) { next(err) 
+        if (err) { next(err)
         } else {
             res.send(data)
             console.log(data)
@@ -111,4 +111,4 @@ app.use(function(err, req, res, next){
 
 
 
-app.listen(8080)
+app.listen(80)
